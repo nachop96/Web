@@ -2,15 +2,16 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 50px;
     }
 
-header{background-color: rosybrown;}
+header{background-color:rgb(24, 25, 88) ;border-bottom-color:cornflowerblue; border-bottom-width: 10px; border-bottom-style: groove;}
+body{background-color: gray;}
 
 .centrar{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    text-align: center;
 
 }
