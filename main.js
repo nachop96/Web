@@ -1,4 +1,5 @@
 
+
 class Persona{
 
     constructor (nombre,edad,frase){
@@ -18,10 +19,12 @@ hablar() {
 
 const Persona1 = new Persona('Igna',24,'No hay mal que por bien no venga');
 
-Persona1.hablar();
-console.log(Persona1)
 
-for (const i in Persona1) {
-    console.log(Persona1[i])
-    
-}
+localStorage.setItem('Primeraxd','Hola Scoly');
+
+let Primer = localStorage.getItem('Primeraxd')
+
+console.log(Primer);
+
+
+
